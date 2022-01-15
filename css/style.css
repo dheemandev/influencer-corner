@@ -83,6 +83,9 @@ body{
 #empty{
   color: gray;
 }
+.see-more{
+  text-align: right;
+}
 .explore{
   color: #FF6600;
   text-decoration:none;
