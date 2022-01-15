@@ -50,6 +50,12 @@ body{
   margin-top: -30px;
 }
 /* =============products area========== */
+
+.products-container{
+  width: 1047px;
+  height: 1662px;
+  margin-left: 160px;
+}
 .products-title{
   display: flex;
   justify-content: center;
@@ -60,4 +66,18 @@ body{
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   align-items: center;
-  }
+  grid-row-gap: 18px;
+}
+.product{
+  line-height: 1em;
+}
+
+#filled{
+  color: orange;
+}
+#empty{
+  color:gainsboro;
+}
+.explore{
+  color: #FF6600;
+}
